@@ -1,5 +1,6 @@
 import './App.css';
 import styled from 'styled-components'
+import ObjectDetector from './components/objectDetector';
 
 const AppContainer = styled.div`
     width: 100%;
@@ -14,7 +15,9 @@ const AppContainer = styled.div`
 
 function App() {
     return (
-        <AppContainer>Object Detection</AppContainer>
+        <AppContainer>
+            <ObjectDetector />
+        </AppContainer>
     );
 }
 
